@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4bf67a6a-4210-40a6-b6b7-ffa22c87d946" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51306/TransferService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TransferService.wsdl" MetadataType="Wsdl" ID="27ac50cd-9773-485f-8abe-2ec0e6df32e7" SourceId="1" SourceUrl="http://localhost:51306/TransferService.svc?wsdl" />
+    <MetadataFile FileName="TransferService.xsd" MetadataType="Schema" ID="c01ab9e6-dd76-4e6c-b41c-445af94a921e" SourceId="1" SourceUrl="http://localhost:51306/TransferService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TransferService1.xsd" MetadataType="Schema" ID="e868ec73-df00-41b3-92e3-b6384314f899" SourceId="1" SourceUrl="http://localhost:51306/TransferService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TransferService.disco" MetadataType="Disco" ID="25748224-14f8-4b71-a0c5-00034f972b9e" SourceId="1" SourceUrl="http://localhost:51306/TransferService.svc?disco" />
+    <MetadataFile FileName="TransferService2.xsd" MetadataType="Schema" ID="18a3153e-ac6d-4c92-a9d5-62ce916455f3" SourceId="1" SourceUrl="http://localhost:51306/TransferService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
